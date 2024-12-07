@@ -36,16 +36,14 @@ export function InfoPage({ onClose }: InfoPageProps) {
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   The distance score is calculated using the Haversine formula multiplied by 1.4 to account for actual road distances 
                   rather than straight-line distances. This adjustment factor provides a more realistic estimate of travel time and 
-                  service coverage area. A higher score indicates better proximity and faster potential response times.
+                  service coverage area. 
                 </p>
               </div>
 
               <div>
                 <h2 className="text-xl font-semibold mb-3 text-gray-800 dark:text-gray-200">CEI Score (Community Equity Index)</h2>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                  The Community Equity Index (CEI) measures how equitably a towing company serves different communities. This score 
-                  takes into account factors such as service availability, response times, and pricing fairness across different 
-                  neighborhoods. A higher score indicates more equitable service delivery.
+                  The Community Equity Index (CEI) measures how equitably
                 </p>
               </div>
 
